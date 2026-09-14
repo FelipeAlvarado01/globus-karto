@@ -1,6 +1,6 @@
 .page {
-  --background: #fafafa;
-  --foreground: #fff;
+  --background: #e5e7eb;
+  --foreground: #ffffff;
 
   --text-primary: #000;
   --text-secondary: #666;
@@ -129,8 +129,8 @@ a.secondary {
   }
 
   .page {
-    --background: #000;
-    --foreground: #000;
+    --background: #18181b;
+    --foreground: #27272a;
 
     --text-primary: #ededed;
     --text-secondary: #999;
