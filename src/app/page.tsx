@@ -14,34 +14,16 @@ export default function Home() {
           priority
         />
         <div className={styles.intro}>
-          <h1>
-            To get started, edit the{" "}
-            <code className={styles.code}>page.tsx</code> file.
-          </h1>
+          <h1>Bienvenido a Globus Karto</h1>
           <p>
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learning
-            </a>{" "}
-            center.
+            Proyecto Next.js con TypeScript y CSS Nativo. Despliegue automático
+            configurado mediante GitHub Actions y Vercel.
           </p>
         </div>
         <div className={styles.ctas}>
           <a
             className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+            href="https://vercel.com"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -52,15 +34,15 @@ export default function Home() {
               width={16}
               height={14}
             />
-            Deploy Now
+            Ver en Vercel
           </a>
           <a
             className={styles.secondary}
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+            href="https://nextjs.org/docs"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Documentation
+            Documentación
           </a>
         </div>
       </main>
