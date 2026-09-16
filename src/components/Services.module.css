@@ -19,7 +19,7 @@
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: var(--brand-accent);
+  color: var(--brand-primary);
   margin-bottom: 8px;
 }
 
@@ -55,14 +55,14 @@
 .card:hover {
   transform: translateY(-4px);
   box-shadow: var(--shadow-lg);
-  border-color: var(--brand-accent);
+  border-color: var(--brand-primary);
 }
 
 .iconWrapper {
   width: 48px;
   height: 48px;
   border-radius: var(--radius-md);
-  background-color: var(--bg-accent);
+  background-color: var(--brand-light);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -102,6 +102,6 @@
 }
 
 .bullet {
-  color: var(--brand-accent);
+  color: var(--brand-primary);
   font-weight: 700;
 }
