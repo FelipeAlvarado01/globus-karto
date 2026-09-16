@@ -11,8 +11,8 @@ export default function Footer() {
             <Image
               src="/logo/GLOBUSKARTO-LOGO.png"
               alt="Globus Karto Logo"
-              width={36}
-              height={36}
+              width={52}
+              height={52}
               className={styles.logoImage}
             />
             <span>Globus Karto</span>

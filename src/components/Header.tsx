@@ -12,8 +12,8 @@ export default function Header() {
           <Image
             src="/logo/GLOBUSKARTO-LOGO.png"
             alt="Globus Karto Logo"
-            width={40}
-            height={40}
+            width={64}
+            height={64}
             className={styles.logoImage}
             priority
           />
