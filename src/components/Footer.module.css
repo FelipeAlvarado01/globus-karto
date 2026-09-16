@@ -28,17 +28,10 @@
   color: var(--text-main);
 }
 
-.logoIcon {
-  width: 32px;
+.logoImage {
+  width: auto;
   height: 32px;
-  background: linear-gradient(135deg, var(--brand-primary), var(--brand-accent));
-  border-radius: var(--radius-sm);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  font-size: 0.9rem;
-  font-weight: 800;
+  object-fit: contain;
 }
 
 .brandText {

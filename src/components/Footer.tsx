@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import styles from "./Footer.module.css";
 
@@ -7,7 +8,13 @@ export default function Footer() {
       <div className={styles.container}>
         <div className={styles.brand}>
           <div className={styles.logo}>
-            <div className={styles.logoIcon}>GK</div>
+            <Image
+              src="/logo/GLOBUSKARTO-LOGO.png"
+              alt="Globus Karto Logo"
+              width={36}
+              height={36}
+              className={styles.logoImage}
+            />
             <span>Globus Karto</span>
           </div>
           <p className={styles.brandText}>

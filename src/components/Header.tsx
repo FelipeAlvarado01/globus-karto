@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import styles from "./Header.module.css";
 
@@ -8,7 +9,14 @@ export default function Header() {
     <header className={styles.header}>
       <div className={styles.container}>
         <Link href="/" className={styles.logo}>
-          <div className={styles.logoIcon}>GK</div>
+          <Image
+            src="/logo/GLOBUSKARTO-LOGO.png"
+            alt="Globus Karto Logo"
+            width={40}
+            height={40}
+            className={styles.logoImage}
+            priority
+          />
           <span>Globus Karto</span>
         </Link>
         <nav className={styles.nav}>
