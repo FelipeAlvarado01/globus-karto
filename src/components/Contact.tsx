@@ -24,7 +24,7 @@ export default function Contact() {
 
           {submitted ? (
             <div className={styles.successMessage}>
-              ✓ ¡Gracias por tu solicitud! Nos pondremos en contacto contigo a la brevedad.
+              ¡Gracias por tu solicitud! Nos pondremos en contacto contigo a la brevedad.
             </div>
           ) : (
             <form onSubmit={handleSubmit} className={styles.form}>
