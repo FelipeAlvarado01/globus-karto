@@ -2,6 +2,13 @@
   --font-main: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
   --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
 
+  /* Blanco Puro Base y Superficies */
+  --color-white: #ffffff;         /* Blanco Puro Corporativo */
+  --bg-primary: #ffffff;          /* Blanco puro brillante para fondo general */
+  --bg-surface: #ffffff;          /* Blanco puro para tarjetas y cabecera */
+  --bg-card: #ffffff;
+  --bg-accent: #f2f9f5;           /* Fondo secundario tenue menta */
+
   /* Brand Primary (Extraído del Logo Globus Karto) */
   --brand-primary: #3b8e5c;       /* Verde Globus */
   --brand-hover: #2e734a;         /* Verde profundo interactivo */
@@ -12,12 +19,6 @@
   --accent-gold-light: #fffbeb;   /* Fondo ámbar cálido super luminoso */
   --accent-sky: #0284c7;          /* Azul Cielo GPS / Satelital (precisión y tecnología) */
   --accent-sky-light: #f0f9ff;    /* Fondo azul cielo claro */
-
-  /* Fondos Luminosos y Claras Superficies */
-  --bg-primary: #f8faf9;          /* Blanco fresco luminoso */
-  --bg-surface: #ffffff;          /* Blanco puro brillante */
-  --bg-card: #ffffff;
-  --bg-accent: #f0f7f2;           /* Tono verde menta claro para tarjetas secundarias */
 
   /* Texto de Alta Legibilidad y Contraste */
   --text-main: #0f172a;           /* Azul pizarra oscuro para máxima claridad */
@@ -38,6 +39,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
+    --color-white: #ffffff;
+
     --brand-primary: #4eb87a;
     --brand-hover: #65cf91;
     --brand-light: #162b20;
